@@ -37,6 +37,7 @@ public:
     virtual TipoCadena ComprarPublicacion() = 0;
     virtual TipoCadena EditarPublicacion() = 0;
     virtual TipoCadena DescargarPublicacion() = 0;
+    virtual TipoCadena AgregarPublicacion() = 0;
 };
 
 #endif //PROYECTO_TEORIA_CUNAPERSONA_H

@@ -43,8 +43,13 @@ int main() {
                 pUnaPersona->ComprarPublicacion();//Retornar link lectura publicacion
                 break;
             case 3:
+                pUnaPersona->AgregarPublicacion();//Retornar link edicion publicacion
+                break;
+		      case 4:
                 pUnaPersona->EditarPublicacion();//Retornar link edicion publicacion
                 break;
+
+ 
         }
         delete pUnaPersona;
         pUnaPersona = nullptr;

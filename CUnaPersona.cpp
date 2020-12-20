@@ -13,7 +13,7 @@ CUnaPersona::CUnaPersona(EnteroSinSigno _DNI, TipoCadena _Nombre, TipoCadena _Ap
     ClaveAcceso = _ClaveAcceso;
 }
 
-TipoCadena CUnaPersona::Buscar()
+TipoCadena CUnaPersona::BuscarPublicacion()
 {
     //return ();
 }

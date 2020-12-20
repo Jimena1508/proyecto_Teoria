@@ -23,8 +23,9 @@ EnteroSinSigno OpcionActividad (EnteroSinSigno Opcion){
         cout << "Seleccione el tipo de actividad que desea realizar: \n";
         cout << "1. Buscar Publicacion\n";
         cout << "2. Comprar Publicacion \n";
+        cout << "3. Agregar Publicacion \n";
         if(Opcion==2)
-            cout << "3. Editar publicacion \n";
+            cout << "4. Editar publicacion \n";
         cout << "Ingresa el numero de la opcion elegida:"; cin >> Opcion;
     } while ((actividad <1) and (actividad >3));
     return (actividad);
